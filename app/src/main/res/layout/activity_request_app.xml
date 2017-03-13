@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_request_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.geniusnine.android.marathijokes.RequestApp">
+
+    <Button
+        android:text="get quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonGetQuote"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Get your cutomized app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Device: Desktop/Phone/Embedded etc..."
+            android:ems="10"
+            android:id="@+id/editTextDevice"
+            android:paddingTop="15sp"
+            android:paddingBottom="15sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="OS: Windows/Linux/Android etc..."
+            android:ems="10"
+            android:id="@+id/editTextOS"
+            android:paddingTop="15sp"
+            android:paddingBottom="15sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="ERP/CRM/Cloud/IoT/Embedded/Other"
+            android:ems="10"
+            android:id="@+id/editTextApplication"
+            android:paddingTop="15sp"
+            android:paddingBottom="15sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Industry: IT/Manufacturing/Services/Other"
+            android:ems="10"
+            android:id="@+id/editTextIndustry"
+            android:paddingTop="15sp"
+            android:paddingBottom="15sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="textMultiLine"
+            android:hint="Short Description..."
+            android:ems="10"
+            android:id="@+id/editTextAppDescription"
+            android:layout_height="100sp"
+            android:gravity="top" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Phone number like 917674828285"
+            android:ems="10"
+            android:id="@+id/editTextContactPhoneNumber" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint="like contact@geniunine.com"
+            android:id="@+id/editTextContactEmail" />
+
+    </LinearLayout>
+</RelativeLayout>

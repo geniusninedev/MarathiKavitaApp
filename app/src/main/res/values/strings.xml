@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_id">MarathiKavita</string>
+    <string name="app_name">Marathi Kavita</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="banner_ad_unit_id">>ca-app-pub-3940256099942544/6300978111</string>
+    <string name="test_admob_app_id">ca-app-pub-6819279779322408~8184820176</string>
+    <string name="test_admob_express_unit_id">ca-app-pub-6819279779322408/2138286570</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="news_url">http://feeds.bbci.co.uk/news/rss.xml</string>
+
+    <string name="facebook_app_id">267933240296176</string>
+    <string name="fb_login_protocol_scheme">fb267933240296176</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="category_table_name">MarathiKavitaCategory</string>
+    <string name="content_table_name">MarathiKavitaContent</string>
+    <string name="web_address">https://geniusnineapps.azurewebsites.net</string>
+</resources>
